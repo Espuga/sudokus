@@ -3,6 +3,7 @@
 #include <string>
 #include <algorithm>
 using namespace std;
+// Hola
 
 bool solution(vector<vector<char>> grid) {
     // Comprovar no repetir en rows.
@@ -138,7 +139,7 @@ int main(){
     }else{
         cout << "Test 1: PROBLEM" << endl;
     }
-    if(!solution(test2)){
+    if(solution(test2)){
         cout << "Test 2: OK" << endl;
     }else{
         cout << "Test 1: PROBLEM" << endl;
